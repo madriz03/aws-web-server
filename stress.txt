@@ -1,0 +1,13 @@
+Instalacion
+
+sudo yum install stress -y
+
+Ejecucion de stress 
+stress -c 4
+
+Donde 4 es el 40%
+
+
+stress --cpu 4 --timeout 60s
+4 seria el 40% 60s seria el tiempo por el cual se mantendra la instancia estresada.
+Puedes ejecutar eso con los parametros que consideres correctos para tus pruebas
