@@ -9,7 +9,7 @@ yum install -y httpd
 # Iniciando apache
 systemctl start httpd
 
-# Configurar Apache para que se inicie al arrancar
+# Habilitar Apache para que se inicie automáticamente al arrancar el sistema
 systemctl enable httpd
 
 # Instalar AWS CLI
